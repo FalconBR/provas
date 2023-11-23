@@ -20,3 +20,10 @@ tabela_huffman_corrigida = {'A': '0', 'B': '111', 'C': '1100', 'D': '1101', 'R':
 codigo_corrigido = '11101011000'
 mensagem_original_corrigida = decodificar_huffman(codigo_corrigido, tabela_huffman_corrigida)
 print("Mensagem decodificada:", mensagem_original_corrigida)
+
+# Item B
+
+# Exemplo de uso com a mensagem "Questao B"
+codigo_corrigido = '0110001111001111001101001100011010010010100100'
+mensagem_original_corrigida = decodificar_huffman(codigo_corrigido, tabela_huffman_corrigida)
+print("Mensagem decodificada:", mensagem_original_corrigida)
