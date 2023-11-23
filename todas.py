@@ -61,8 +61,11 @@ resultado = indice_primeiro_termo_fibonacci_com_n_digitos(n)
 print("O índice do primeiro termo da sequência de Fibonacci com", n, "dígitos é:", resultado)
 
 # Item b
+n = 1000
+resultado = indice_primeiro_termo_fibonacci_com_n_digitos(n)
+print("O índice do primeiro termo da sequência de Fibonacci com", n, "dígitos é:", resultado)
 
-O primeiro elemento da sequencia com 1000 dígitos ocorre na posição 4782
+# O primeiro elemento da sequencia com 1000 dígitos ocorre na posição 4782
 
 # Fim questao 2 ----------------------
 
