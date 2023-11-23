@@ -14,7 +14,7 @@ def decodificar_huffman(codigo, tabela):
     return mensagem_decodificada
 
 # Tabela de codificação Huffman corrigida
-tabela_huffman_corrigida = {'A': '0', 'B': '111', 'R': '1100', 'C': '1101', 'D': '10'}
+tabela_huffman_corrigida = {'A': '0', 'B': '111', 'C': '1100', 'D': '1101', 'R': '10'}
 
 # Exemplo de uso com a mensagem "BARCA"
 codigo_corrigido = '11101011000'
